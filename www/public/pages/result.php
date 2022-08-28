@@ -33,13 +33,13 @@
 
     echo '<strong>Du fick '.$points.' av 5 möjliga</strong>';
    
-    if (0 =< $points =< 2) {
+    if (0 <= $points || $points <= 2) {
         <br><br>
-        echo("you are not good enough, must study more");
+        echo(" must study more, when I was your age I was 10 years older than you");
     }
-    if (3 =< $points =< 4) {
+    if (3 <= $points || $points <= 4) {
         <br><br>
-        echo("decently good");
+        echo(" good enough ");
     }
     if ( $points ==5 ) {
         <br><br>

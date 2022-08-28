@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8" />
+    <title>Quiz med Formulär och PHP</title>
+</head>
+<body>
+<h1>Quize</h1>
+<form action="result.php" method="post">
+    <label>I vilket språk programmerar vi i på kursen?</label><br>    
+    <input type="radio" name="qOne" value="php">PHP<br>
+    <input type="radio" name="qOne" value="asp">ASP<br>
+    <input type="radio" name="qOne" value="jsp">JSP<br><br>
+    <label>Vilket språk är ett klientskriptspråk</label><br>  
+    <input type="radio" name="qTwo" value="jsp">JSP<br>
+    <input type="radio" name="qTwo" value="js">JavaScript<br>
+    <input type="radio" name="qTwo" value="basic">Basic<br><br>
+    <label>hur länge sedan var 2004</label><br>  
+    <input type="radio" name="qThree" value="jsp">18<br>
+    <input type="radio" name="qThree" value="js">17<br>
+    <input type="radio" name="qThree" value="basic">19<br><br>
+    <label>hur länge kvar till 2025</label><br>  
+    <input type="radio" name="qFour" value="jsp">5år<br>
+    <input type="radio" name="qFour" value="js">3år<br>
+    <input type="radio" name="qFour" value="basic">25år<br><br>
+
+        <br><br>
+    <label> Note: two answers are correct, must answer both to get 1p </label>
+    <label> what possible numbers could X be if,  X is larger than 30 and less than 70? </label>
+    <br>
+    <label>X=30</label>
+    <input type="checkbox" name="ValOfX[]" value=30>
+    <label>X=33</label>
+    <input type="checkbox" name="ValOfX[]" value=33>
+    <label>X=70</label>
+    <input type="checkbox" name="ValOfX[]" value=70>
+    <label>X=77</label>
+    <input type="checkbox" name="ValOfX[]" value=77>
+
+
+
+
+    <input type="submit" value="Skicka" />
+</form>
+</body>
+</html>

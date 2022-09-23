@@ -21,9 +21,7 @@
         $points++; }
     if($ansThree == '3'){
         $points++; }
-   else{
-    
-   }
+ 
 
    $valOfX = $_POST['ValOfX'];
    if($valOfX[1] == 30 || $valOfX[1] == 70 ){
@@ -33,16 +31,16 @@
 
     echo '<strong>Du fick '.$points.' av 5 möjliga</strong>';
    
-    if (0 <= $points || $points <= 2) {
-        <br><br>
+    if (0 <= $points && $points <= 2) {
+        
         echo(" must study more, when I was your age I was 10 years older than you");
     }
-    if (3 <= $points || $points <= 4) {
-        <br><br>
+    if (3 <= $points && $points <= 4) {
+       
         echo(" good enough ");
     }
     if ( $points ==5 ) {
-        <br><br>
+      
         echo("great success");
     }
 

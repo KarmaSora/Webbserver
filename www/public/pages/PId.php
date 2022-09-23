@@ -9,8 +9,8 @@
 <body>
         <h1>persons name and ID display area</h1>
     <?php
-    $age = $_GET['age'];  //kan ändra till post eller get
-    $name = $_GET['name'];
+    $age = $_POST['age'];  //kan ändra till post eller get
+    $name = $_POST['name'];
     $pen = 65 - $age;
     echo"<h1> hello $name. you are  $age years old, there are $pen years left till pension";
 

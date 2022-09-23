@@ -7,9 +7,25 @@
    <title>Document</title>
 </head>
 <body>
-   <header><h1>this here is a dollar to sek converter</h1></header>   
+   <header><h1>this here is a dollar to sek converter</h1>
+
+
+   <a href="http://172.17.72.72/relay/0?turn=on"> lamp on</a>
+
+<br>
+   <a href="http://172.17.72.72/relay/0?turn=off"> lamp off</a>
+
+<br><br><br>
+         <a href="http://192.168.1.118/relay/0?/turn=on"> my phone, on</a>
+
+   </header>   
 
    <main>
+
+         <h1>  branch test</h1>
+
+         <h2> test branch dev</h2>
+
       <form action="pages/converter.php" method="post">
       <legend>dollar to sek </legend>
       <br>
@@ -22,7 +38,7 @@
       </form>
 <br><br><br><br> // kan ändra till post eller get.     
 <br>
-<form action="pages/PId.php" method="get">   
+<form action="pages/PId.php" method="post">   
    <label > insert name </label>
    <input type="text" name="name">
    <label >insert age</label>
